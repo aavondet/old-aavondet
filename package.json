@@ -1,0 +1,35 @@
+{
+  "name": "aavondet",
+  "version": "1.0.0",
+  "description": "Portfolio site made with VueJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node router.js",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aavondet/aavondet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aavondet/aavondet/issues"
+  },
+  "homepage": "https://github.com/aavondet/aavondet#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
