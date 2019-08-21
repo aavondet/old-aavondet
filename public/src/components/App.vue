@@ -1,13 +1,17 @@
 <template>
   <div id='app'>
     <div class='container'>
-      Hello
+      <Header></Header>
+      <Main></Main>
     </div>
   </div>
 </template>
 
 <script>
-export default {
+import Main from './Main.vue'
+import Header from './Header.vue'
 
+export default {
+  components: { Header, Main }
 }
 </script>
