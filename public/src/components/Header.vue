@@ -1,38 +1,59 @@
 <template>
 	<header>
-		<Sidebar></Sidebar>
-		<ul>
-			<li><i src="../../favicon.ico"></i></li>
-			<li>Header</li>
-		</ul>
+			<img src="../../favicon.png">
+			<nav>
+				<router-link class="link" to="/">Home</router-link>
+				<router-link class="link" to="/experience">Experience</router-link>
+				<router-link class="link" to="/coding">Coding</router-link>
+				<router-link class="link" to="/design">Design</router-link>
+			</nav>
 	</header>
 </template>
     
 <script>
-import Sidebar from './Sidebar.vue'
 
 export default {
-  components: { Sidebar }
     
 }
 </script>
 
 <style scoped>
 header {
-	background-color: greenyellow;
+	font: Arial;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 80px;
+	height: 10%;
 	display: flex;
 	align-items: center;
-	box-shadow: 0 0 25px 0 black;
+	text-align: center;
+	z-index: 2;
 }
-header * {
-  display: inline;
+header .link {
+  margin: 20px;
 }
-header li {
-    margin: 20px;
+img {
+	height: 50%;
+	margin-left: 60px;
+}
+.link {
+	cursor: pointer;
+	color: #bbb;
+	font-size: 100%;
+	text-decoration: none;
+}
+.link:hover {
+	color: greenyellow;
+	-webkit-transition: color 0.5s; 
+  transition: color 0.5s;
+}
+nav {
+	display: inline-block;
+	float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>

@@ -12,6 +12,7 @@ module.exports = {
     rules: [
       { test: /\.vue$/, use: 'vue-loader' },
       { test: /\.css$/, use: [ 'vue-style-loader', 'css-loader' ]},
+      { test: /\.(gif|png|jpe?g|svg)$/i, use: [ 'file-loader', { loader: 'image-webpack-loader'}] }
     ]
   },
   plugins: [

@@ -2,16 +2,16 @@
   <div id='app'>
     <div class='container'>
       <Header></Header>
-      <Main></Main>
+      <router-view></router-view>
     </div>
   </div>
 </template>
 
 <script>
-import Main from './Main.vue'
+import Home from './Home.vue'
 import Header from './Header.vue'
 
 export default {
-  components: { Header, Main }
+  components: { Header, Home }
 }
 </script>
