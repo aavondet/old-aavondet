@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <span class="title">Experience</span>
+    <span>Coming soon...</span>
   </div>
 </template>
 
@@ -23,5 +24,6 @@ export default {
   font-size: 80px;
   color: greenyellow;
   text-align: center;
+  display: block;
 }
 </style>
