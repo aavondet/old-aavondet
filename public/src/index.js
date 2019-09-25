@@ -19,21 +19,21 @@ const routes = [
 		}
 	},
 	{
-		path: 'experience',
+		path: '/experience',
 		component: Experience,
 		meta: {
 			title: 'Experience'
 		}
 	},
 	{
-		path: 'coding',
+		path: '/coding',
 		component: Coding,
 		meta: {
 			title: 'Coding'
 		}
 	},
 	{
-		path: 'design',
+		path: '/design',
 		component: Design,
 		meta: {
 			title: 'Design'

@@ -6,6 +6,7 @@
 				<router-link class="link" to="/experience">Experience</router-link>
 				<router-link class="link" to="/coding">Coding</router-link>
 				<router-link class="link" to="/design">Design</router-link>
+				<a class="link" href="../../ARNAUD_AVONDET_RESUME.pdf">Resume</a>
 			</nav>
 	</header>
 </template>

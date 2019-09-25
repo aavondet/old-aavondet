@@ -25,7 +25,6 @@ export default {
 .wrapper {
   width:270px;
   margin:50px auto;
-  position:Relative;
   position: absolute;
   top: 0;
   bottom: 0;
