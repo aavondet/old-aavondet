@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "title": "CMU Blockchain Logo",
+        "filename": "blockchain.png"
+    },
+    {
+        "id": 1,
+        "title": "D-Media Logo",
+        "filename": "dmedia.png"
+    },
+    {
+        "id": 2,
+        "title": "CMUsic Logo",
+        "filename": "cmusic.png"
+    },
+    {
+        "id": 3,
+        "title": "ASIJ Space Club Conference Logo",
+        "filename": "space.png"
+    },
+    {
+        "id": 4,
+        "title": "ASIJ Math Circle Logo",
+        "filename": "math.png"
+    }
+  ]

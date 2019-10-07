@@ -1,13 +1,15 @@
 <template>
   <div class="container">
     <span class="title">Design</span>
-    <span>Coming soon...</span>
+    <Gallery></Gallery>
   </div>
 </template>
 
 <script>
-export default {
+import Gallery from './Gallery.vue';
 
+export default {
+  components: { Gallery }
 }
 </script>
 

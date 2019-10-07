@@ -6,6 +6,7 @@ import Experience from './components/Experience.vue'
 import Coding from './components/Coding.vue'
 import Design from './components/Design.vue'
 import VueAnime from 'vue-animejs';
+import Images from './components/Images.vue';
 
 Vue.use(VueAnime);
 Vue.use(VueRouter);
@@ -38,7 +39,11 @@ const routes = [
 		meta: {
 			title: 'Design'
 		}
-	}
+	},
+	{
+		path: '/images/:id',
+		component: Images
+	  },
 ];
 
 const router = new VueRouter({
