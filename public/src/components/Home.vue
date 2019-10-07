@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div class="wrapper">
-      <span class="hello" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }">Hello,</span>
-      <span class="name" v-anime="{ delay: 1600, duration: 1000, easing: 'linear', opacity: 1 }">my name is <span 
-      v-anime="{ delay: 3000, duration: 1500, easing: 'linear', color: '#ADFF2F' }" class="arnaud">Arnaud</span></span>
+      <span class="hello" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }">You are "justin" time"</span>
+      <span class="name" v-anime="{ delay: 1600, duration: 1000, easing: 'linear', opacity: 1 }">to be my<span 
+      v-anime="{ delay: 3000, duration: 1500, easing: 'linear', color: '#ADFF2F' }" class="arnaud">Kouhai!</span></span>
     </div>
     <span class="dot dot1" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }"></span>
     <span class="dot dot2" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }"></span>
@@ -66,7 +66,7 @@ span {
   width: 200px;
   left: 0;
   top: 0;
-  transform: translate(300%, 50%);
+  transform: translate(300%, 80%);
 }
 .dot3 {
   height: 550px;
