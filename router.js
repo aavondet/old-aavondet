@@ -10,8 +10,8 @@ const PORT = process.env.PORT || 8080;
 app.use(express.static(__dirname+'/public'));
 app.use(favicon(path.join(__dirname,'public','favicon.ico')));
 
-app.get('/', (req, res, next) => {
-  res.sendFile('./public/index.html');
+app.get('/*', (req, res, next) => {
+  res.sendFile(path.join(__dirname, '../aavondet/public', 'index.html'));
 });
 
 app.get('/image/', (req, res, next) => {
