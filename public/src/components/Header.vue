@@ -1,6 +1,6 @@
 <template>
 	<header>
-			<img src="../../favicon.png">
+			<img src="../../AA.svg">
 			<nav>
 				<router-link class="link" to="/">Home</router-link>
 				<router-link class="link" to="/experience">Experience</router-link>
@@ -20,6 +20,7 @@ export default {
 
 <style scoped>
 header {
+	background-color: white;
 	font: Arial;
 	position: fixed;
 	top: 0;

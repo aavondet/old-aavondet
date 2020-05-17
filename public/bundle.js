@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "12833530954d3b48276a";
+/******/ 	var hotCurrentHash = "fa2aee6a245502e5f992";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -859,7 +859,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\\nheader[data-v-43c3657a] {\\n\\tfont: Arial;\\n\\tposition: fixed;\\n\\ttop: 0;\\n\\tleft: 0;\\n\\tright: 0;\\n\\theight: 10%;\\n\\tdisplay: flex;\\n\\talign-items: center;\\n\\ttext-align: center;\\n\\tz-index: 2;\\n}\\nheader .link[data-v-43c3657a] {\\n  margin: 20px;\\n}\\nimg[data-v-43c3657a] {\\n\\theight: 50%;\\n\\tmargin-left: 60px;\\n}\\n.link[data-v-43c3657a] {\\n\\tcursor: pointer;\\n\\tcolor: #bbb;\\n\\tfont-size: 100%;\\n\\ttext-decoration: none;\\n}\\n.link[data-v-43c3657a]:hover {\\n\\tcolor: greenyellow;\\n\\t-webkit-transition: color 0.5s; \\n  transition: color 0.5s;\\n}\\nnav[data-v-43c3657a] {\\n\\tdisplay: inline-block;\\n\\tfloat: none;\\n  position: absolute;\\n  top: 50%;\\n  left: 50%;\\n  transform: translate(-50%, -50%);\\n}\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./public/src/components/Header.vue?./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\\nheader[data-v-43c3657a] {\\n\\tbackground-color: white;\\n\\tfont: Arial;\\n\\tposition: fixed;\\n\\ttop: 0;\\n\\tleft: 0;\\n\\tright: 0;\\n\\theight: 10%;\\n\\tdisplay: flex;\\n\\talign-items: center;\\n\\ttext-align: center;\\n\\tz-index: 2;\\n}\\nheader .link[data-v-43c3657a] {\\n  margin: 20px;\\n}\\nimg[data-v-43c3657a] {\\n\\theight: 50%;\\n\\tmargin-left: 60px;\\n}\\n.link[data-v-43c3657a] {\\n\\tcursor: pointer;\\n\\tcolor: #bbb;\\n\\tfont-size: 100%;\\n\\ttext-decoration: none;\\n}\\n.link[data-v-43c3657a]:hover {\\n\\tcolor: greenyellow;\\n\\t-webkit-transition: color 0.5s; \\n  transition: color 0.5s;\\n}\\nnav[data-v-43c3657a] {\\n\\tdisplay: inline-block;\\n\\tfloat: none;\\n  position: absolute;\\n  top: 50%;\\n  left: 50%;\\n  transform: translate(-50%, -50%);\\n}\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./public/src/components/Header.vue?./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -1117,7 +1117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    { staticClass: \"gallery\" },\n    _vm._l(_vm.photos, function(photo) {\n      return _c(\"div\", { key: photo.id, staticClass: \"gallery-panel\" }, [\n        _c(\"img\", { attrs: { src: _vm.thumbUrl(photo.filename) } })\n      ])\n    }),\n    0\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./public/src/components/Gallery.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    { staticClass: \"gallery\" },\n    _vm._l(_vm.photos, function(photo) {\n      return _c(\n        \"div\",\n        { key: photo.id, staticClass: \"gallery-panel\" },\n        [\n          _c(\"router-link\", { attrs: { to: \"/images/\" + photo.id } }, [\n            _c(\"img\", { attrs: { src: _vm.thumbUrl(photo.filename) } })\n          ])\n        ],\n        1\n      )\n    }),\n    0\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./public/src/components/Gallery.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -1129,7 +1129,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"header\", [\n    _c(\"img\", { attrs: { src: __webpack_require__(/*! ../../favicon.png */ \"./public/favicon.png\") } }),\n    _vm._v(\" \"),\n    _c(\n      \"nav\",\n      [\n        _c(\"router-link\", { staticClass: \"link\", attrs: { to: \"/\" } }, [\n          _vm._v(\"Home\")\n        ]),\n        _vm._v(\" \"),\n        _c(\n          \"router-link\",\n          { staticClass: \"link\", attrs: { to: \"/experience\" } },\n          [_vm._v(\"Experience\")]\n        ),\n        _vm._v(\" \"),\n        _c(\"router-link\", { staticClass: \"link\", attrs: { to: \"/coding\" } }, [\n          _vm._v(\"Coding\")\n        ]),\n        _vm._v(\" \"),\n        _c(\"router-link\", { staticClass: \"link\", attrs: { to: \"/design\" } }, [\n          _vm._v(\"Design\")\n        ]),\n        _vm._v(\" \"),\n        _c(\n          \"a\",\n          {\n            staticClass: \"link\",\n            attrs: { href: \"../../ARNAUD_AVONDET_RESUME.pdf\" }\n          },\n          [_vm._v(\"Resume\")]\n        )\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./public/src/components/Header.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"header\", [\n    _c(\"img\", { attrs: { src: __webpack_require__(/*! ../../AA.svg */ \"./public/AA.svg\") } }),\n    _vm._v(\" \"),\n    _c(\n      \"nav\",\n      [\n        _c(\"router-link\", { staticClass: \"link\", attrs: { to: \"/\" } }, [\n          _vm._v(\"Home\")\n        ]),\n        _vm._v(\" \"),\n        _c(\n          \"router-link\",\n          { staticClass: \"link\", attrs: { to: \"/experience\" } },\n          [_vm._v(\"Experience\")]\n        ),\n        _vm._v(\" \"),\n        _c(\"router-link\", { staticClass: \"link\", attrs: { to: \"/coding\" } }, [\n          _vm._v(\"Coding\")\n        ]),\n        _vm._v(\" \"),\n        _c(\"router-link\", { staticClass: \"link\", attrs: { to: \"/design\" } }, [\n          _vm._v(\"Design\")\n        ]),\n        _vm._v(\" \"),\n        _c(\n          \"a\",\n          {\n            staticClass: \"link\",\n            attrs: { href: \"../../ARNAUD_AVONDET_RESUME.pdf\" }\n          },\n          [_vm._v(\"Resume\")]\n        )\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./public/src/components/Header.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -1317,14 +1317,14 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./public/favicon.png":
-/*!****************************!*\
-  !*** ./public/favicon.png ***!
-  \****************************/
+/***/ "./public/AA.svg":
+/*!***********************!*\
+  !*** ./public/AA.svg ***!
+  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"42a31d234780a79a69715e72b600df46.png\";\n\n//# sourceURL=webpack:///./public/favicon.png?");
+eval("module.exports = __webpack_require__.p + \"4fa1263ac9346973471afbca4edbd92f.svg\";\n\n//# sourceURL=webpack:///./public/AA.svg?");
 
 /***/ }),
 
