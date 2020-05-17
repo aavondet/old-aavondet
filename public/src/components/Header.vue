@@ -2,11 +2,13 @@
 	<header>
 			<img src="../../AA.svg">
 			<nav>
-				<router-link class="link" to="/">Home</router-link>
-				<router-link class="link" to="/experience">Experience</router-link>
-				<router-link class="link" to="/coding">Coding</router-link>
-				<router-link class="link" to="/design">Design</router-link>
-				<a class="link" href="../../ARNAUD_AVONDET_RESUME.pdf">Resume</a>
+				<ul>
+					<li><router-link class="link" to="/">Home</router-link></li>
+					<li><router-link class="link" to="/experience">Experience</router-link></li>
+					<li><router-link class="link" to="/coding">Coding</router-link></li>
+					<li><router-link class="link" to="/design">Design</router-link></li>
+					<li><a class="link" href="../../ARNAUD_AVONDET_RESUME.pdf">Resume</a></li>
+				</ul>
 			</nav>
 	</header>
 </template>
@@ -21,22 +23,12 @@ export default {
 <style scoped>
 header {
 	background-color: white;
-	font: Arial;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 10%;
-	display: flex;
-	align-items: center;
+	margin: 1em;
 	text-align: center;
-	z-index: 2;
-}
-header .link {
-  margin: 20px;
+	text-transform: uppercase;
 }
 img {
-	height: 50%;
+	height: 5%;
 	margin-left: 60px;
 }
 .link {
@@ -50,12 +42,14 @@ img {
 	-webkit-transition: color 0.5s; 
   transition: color 0.5s;
 }
-nav {
-	display: inline-block;
-	float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;;
 }
+nav li {
+	display: inline-block;
+	margin: 1em;
+}
+
 </style>
