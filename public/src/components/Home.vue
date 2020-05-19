@@ -1,13 +1,12 @@
 <template>
-  <div class="container">
-    <div class="wrapper">
-      <span class="hello" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }">Hello,</span>
-      <span class="name" v-anime="{ delay: 1600, duration: 1000, easing: 'linear', opacity: 1 }">my name is <span 
-      v-anime="{ delay: 3000, duration: 1500, easing: 'linear', color: '#ADFF2F' }" class="arnaud">Arnaud</span></span>
-    </div>
-    <span class="dot dot1" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }"></span>
-    <span class="dot dot2" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }"></span>
-    <span class="dot dot3" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }"></span>
+  <div>
+    <section class='text'>
+      <div class="wrapper">
+        <span class="hello" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }">Hello,</span>
+        <span class="name" v-anime="{ delay: 1600, duration: 1000, easing: 'linear', opacity: 1 }">I am</span>
+        <span v-anime="{ delay: 3000, duration: 1500, easing: 'linear', color: '#8cd565' }" class="arnaud">Arnaud</span>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -17,61 +16,26 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  margin-top: 80px;
-  height:90%;
+section.text {
+  display: inline-block;
   width: 100%;
+  text-align: center;
 }
 .wrapper {
-  width:270px;
-  margin:50px auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 50%;
-  height: 30%;
-  margin: auto;
+  display: inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
 }
 span {
-  display:block;
-  text-align:justify;
+  display: inline-block;
+  text-align: left;
   font-family: "Arial";
-  line-height:0.8;
+  line-height:0.9;
   text-transform:uppercase;
   letter-spacing:0px;
-  font-size: 80px;
-  color: greenyellow;
-}
-.dot {
-  background-color: #bbb;
-  border-radius: 50%;
-  display: absolute;
-  opacity: 0;
-}
-.dot:hover {
-  background-color: greenyellow;
-  -webkit-transition: backbround-color 1s; 
-  transition: background-color 1s;
-}
-.dot1 {
-  height: 320px;
-  width: 320px;
-  left: 0;
-  transform: translate(-20%, 0);
-}
-.dot2 {
-  height: 200px;
-  width: 200px;
-  left: 0;
-  top: 0;
-  transform: translate(300%, 50%);
-}
-.dot3 {
-  height: 550px;
-  width: 550px;
-  transform: translate(200%, -150%);
+  font-size: 9rem;
+  color: rgba(140, 213, 101, 0.93);
 }
 .hello {
   color: #bbb;
@@ -82,6 +46,7 @@ span {
   opacity: 0;
 }
 .arnaud {
-  color: greenyellow;
+  color: rgba(140, 213, 101, 0.93);
 }
+
 </style>

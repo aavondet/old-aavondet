@@ -26,6 +26,7 @@ header {
 	margin: 1em;
 	text-align: center;
 	text-transform: uppercase;
+	font-size: 1.5rem;
 }
 img {
 	height: 5%;
@@ -36,16 +37,18 @@ img {
 	color: #bbb;
 	font-size: 100%;
 	text-decoration: none;
+	border-radius: 5%;
+	transition: 0.5s;
 }
-.link:hover {
-	color: greenyellow;
-	-webkit-transition: color 0.5s; 
-  transition: color 0.5s;
+.link:hover,
+.link:focus {
+	color: rgba(140, 213, 101, 0.93);
+	margin: 8px;
 }
 nav ul {
 	margin: 0;
 	padding: 0;
-	list-style: none;;
+	list-style: none;
 }
 nav li {
 	display: inline-block;
