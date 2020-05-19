@@ -4,7 +4,7 @@
       <div class="wrapper">
         <span class="hello" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }">Hello,</span>
         <span class="name" v-anime="{ delay: 1600, duration: 1000, easing: 'linear', opacity: 1 }">I am</span>
-        <span v-anime="{ delay: 3000, duration: 1500, easing: 'linear', color: '#8cd565' }" class="arnaud">Arnaud</span>
+        <span v-anime="{ delay: 3000, duration: 1500, easing: 'linear', opacity: 1 }" class="arnaud">Arnaud</span>
       </div>
     </section>
   </div>
@@ -40,13 +40,29 @@ span {
 .hello {
   color: #bbb;
   opacity: 0;
+  animation: changetext 15s ease-in-out infinite alternate;
 }
 .name {
   color: #bbb;
   opacity: 0;
+  animation: changetext 15s ease-in-out infinite alternate;
 }
 .arnaud {
   color: rgba(140, 213, 101, 0.93);
+  opacity: 0;
+  animation: changename 15s ease-in-out infinite alternate;
+}
+
+@keyframes changetext {
+  0%{color:#bbb}
+  45%{color:#bbb}
+  55%{color: rgba(140, 213, 101, 0.93)}
+}
+
+@keyframes changename {
+  0%{color:rgba(140, 213, 101, 0.93)}
+  45%{color:rgba(140, 213, 101, 0.93)}
+  55%{color: #bbb}
 }
 
 </style>
