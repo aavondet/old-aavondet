@@ -7,11 +7,17 @@
         <span v-anime="{ delay: 3000, duration: 1500, easing: 'linear', opacity: 1 }" class="arnaud">Arnaud</span>
       </div>
     </section>
+    <hr>
+    <Experience></Experience>
   </div>
 </template>
 
 <script>
+import Experience from "./Experience.vue"
 export default {
+  components: {
+    Experience
+  }
 }
 </script>
 
@@ -26,6 +32,7 @@ section.text {
   margin-left: auto;
   margin-right: auto;
   margin-top:5%;
+  margin-bottom:15%
 }
 span {
   display: inline-block;
@@ -64,5 +71,8 @@ span {
   45%{color:rgba(140, 213, 101, 0.93)}
   55%{color: #bbb}
 }
-
+hr {
+  border-top: 2px solid rgba(140, 213, 101, 0.93);
+  width: 80%
+}
 </style>
