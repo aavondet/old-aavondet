@@ -30,6 +30,7 @@ header {
 	position: sticky;
     top: 0;
 	height: 120px;
+	z-index: 3;
 }
 img {
 	height: 50px;
