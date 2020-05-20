@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <section class="entry" v-for="job in jobs" :key="job.id">
+  <section class="container">
+    <div class="entry" v-for="job in jobs" :key="job.id">
       <div class="image">
         <a :href="job.link"><img :src="job.image"></a>
       </div>
@@ -9,8 +9,8 @@
           <i>{{job.company}} ({{job.location}})</i>
           <p>{{job.description}}</p>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -35,7 +35,7 @@ export default {
   padding-bottom: 10%;
   width:100%
 }
-section {
+.entry {
   display: block;
 }
 img {

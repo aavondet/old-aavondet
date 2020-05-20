@@ -3,10 +3,10 @@
 			<img src="../../AA.svg">
 			<nav>
 				<ul>
-					<li><router-link class="link" to="/">Home</router-link></li>
-					<li><router-link class="link" to="/experience">Experience</router-link></li>
-					<li><router-link class="link" to="/coding">Coding</router-link></li>
-					<li><router-link class="link" to="/design">Design</router-link></li>
+					<li><a class="link" @click="$emit('home')">Home</a></li>
+					<li><a class="link" @click="$emit('experience')">Experience</a></li>
+					<li><a class="link" @click="$emit('coding')">Coding</a></li>
+					<li><a class="link" @click="$emit('design')">Design</a></li>
 					<li><a class="link" href="../../ARNAUD_AVONDET_RESUME.pdf">Resume</a></li>
 				</ul>
 			</nav>
@@ -23,21 +23,22 @@ export default {
 <style scoped>
 header {
 	background-color: white;
-	margin: 1em;
+	margin: 20px;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
+	position: sticky;
+    top: 0;
+	height: 120px;
 }
 img {
-	height: 5%;
-	margin-left: 60px;
+	height: 50px;
 }
 .link {
 	cursor: pointer;
 	color: #bbb;
 	font-size: 100%;
 	text-decoration: none;
-	border-radius: 5%;
 	transition: 0.5s;
 }
 .link:hover,

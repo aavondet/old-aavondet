@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <section class='text'>
       <div class="wrapper">
         <span class="hello" v-anime="{ duration: 1500, easing: 'linear', opacity: 1 }">Hello,</span>
@@ -7,8 +7,6 @@
         <span v-anime="{ delay: 3000, duration: 1500, easing: 'linear', opacity: 1 }" class="arnaud">Arnaud</span>
       </div>
     </section>
-    <hr>
-    <Experience></Experience>
   </div>
 </template>
 
@@ -22,6 +20,9 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  scroll-behavior: smooth;
+}
 section.text {
   display: inline-block;
   width: 100%;
