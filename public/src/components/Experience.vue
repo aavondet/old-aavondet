@@ -14,15 +14,12 @@
 </template>
 
 <script>
+import jobs from '../jobs.json'
+
 export default {
   data() {
     return {
-      jobs : [
-        {id: 1, company: "Expii", location: "Pittsburgh, PA", position: "Intern", image: "../../expii.png", link: "https://www.expii.com", 
-        description: "Worked on the \"Daily Challenge with Po-Shen Loh\" team, using LaTeX to write problems in different fields of Mathematics, such as Number Theory and Probability, that were used to evaluate students on their proficiency in these topics. Additionally, editted videos of Professor Po-Shen Loh using DaVinci Resolve and helped with filming as well."},
-        {id: 2, company: "PLAID, Inc.", location: "Tokyo, Japan", position: "Developer Intern", image: "../../plaid.png", link: "https://www.plaid.co.jp",
-        description: "Developed the frontend code of several new pages, giving design input about industry standards and UX writing, coding them in JavaScript using the Vue framework, and writing e2e tests in CoffeeScript using Selenium. Contributed with frontend code refactoring and long-term development planning to prepare the CX platform Karte for its initial overseas release as part of the i18n team."}
-      ]
+      jobs
     }
   }
 }
