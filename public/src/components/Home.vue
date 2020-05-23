@@ -65,12 +65,14 @@ span {
   0%{color:#bbb}
   45%{color:#bbb}
   55%{color: rgba(140, 213, 101, 0.93)}
+  100%{color: rgba(140, 213, 101, 0.93)}
 }
 
 @keyframes changename {
   0%{color:rgba(140, 213, 101, 0.93)}
   45%{color:rgba(140, 213, 101, 0.93)}
-  55%{color: #bbb}
+  55%{color:#bbb}
+  100%{color: #bbb}
 }
 hr {
   border-top: 2px solid rgba(140, 213, 101, 0.93);
