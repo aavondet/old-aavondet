@@ -29,8 +29,8 @@ export default {
 <style scoped>
 .container {
   text-align: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   width:100%
 }
 #title {
@@ -47,7 +47,7 @@ export default {
     overflow: hidden;
     visibility: visible; 
     width: 350px;
-    height:350px;
+    height: 350px;
     opacity: 1;
     margin-top: 20px;
   }
@@ -88,7 +88,7 @@ img {
     cursor: pointer;
   }
 strong {
-  font-size: 36px;
+  font-size: 30px;
   display: block;
 }
 i {
