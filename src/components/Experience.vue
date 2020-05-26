@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import jobs from '../jobs.json'
+import jobs from '../data/jobs.json'
 
 export default {
   data() {

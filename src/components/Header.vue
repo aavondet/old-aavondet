@@ -1,13 +1,13 @@
 <template>
 	<header>
-			<img src="../../AA.svg">
+			<img src="../assets/AA.svg">
 			<nav>
 				<ul>
 					<li><a class="link" @click="$emit('home')">Home</a></li>
 					<li><a class="link" @click="$emit('experience')">Experience</a></li>
 					<li><a class="link" @click="$emit('coding')">Projects</a></li>
 					<li><a class="link" @click="$emit('design')">Design</a></li>
-					<li><a class="link" href="../../ARNAUD_AVONDET_RESUME.pdf">Resume</a></li>
+					<li><a class="link" href="../assets/ARNAUD_AVONDET_RESUME.pdf">Resume</a></li>
 				</ul>
 			</nav>
 	</header>

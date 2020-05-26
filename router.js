@@ -7,16 +7,12 @@ const app = express();
 
 const PORT = process.env.PORT || 8080;
 
-app.use(express.static(__dirname+'/public'));
-app.use(favicon(path.join(__dirname,'public','favicon.ico')));
+app.use(express.static(__dirname+'/src'));
+app.use(favicon(path.join(__dirname,'src/assets','favicon.ico')));
 
 app.get('/*', (req, res, next) => {
-  res.sendFile(path.join(__dirname, '../aavondet/public', 'index.html'));
-});
-
-app.get('/image/', (req, res, next) => {
-  res.sendFile('./public/index.html');
+  res.sendFile(path.join(__dirname, '', 'index.html'));
 });
 
 app.listen(PORT);
-console.log(PORT);
+console.log("Listening on port " + PORT);

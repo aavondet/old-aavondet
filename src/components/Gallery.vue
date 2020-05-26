@@ -3,14 +3,14 @@
     <div id="title"><b>Logos by Me</b></div>
     <stack id="stack" :column-min-width="450" :gutter-width="15" :gutter-height="15" :monitor-images-loaded="true">
       <stack-item v-for="(photo, i) in photos" :key="i">
-        <img :src="thumbUrl(photo.filename)">
+        <img :src="photo.filename">
       </stack-item>
     </stack>
   </div>
 </template>
 
 <script>
-import photos from '../photos.json'
+import photos from '../data/photos.json'
 import { Stack, StackItem } from 'vue-stack-grid'
 
 export default {
@@ -19,11 +19,6 @@ export default {
     return {
       photos,
     };
-  },
-  methods: {
-    thumbUrl(filename) {
-      return require(`../gallery/${filename}`);
-    },
   },
   components: {
     Stack, StackItem
