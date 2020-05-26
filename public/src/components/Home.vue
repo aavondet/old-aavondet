@@ -88,8 +88,8 @@ span {
 .about {
   width: 700px;
   margin: auto;
-  margin-bottom: 30px;
-  margin-top:50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .about p {
   font-size: 25px;
