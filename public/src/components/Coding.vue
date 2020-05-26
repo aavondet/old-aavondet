@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <div id="title"><b>Some Coding Projects</b></div>
+    <div id="title"><b>Past Projects</b></div>
     <div class="entry" v-for="project in projects" :key="project.id">
       <div class="image">
         <a :href="project.link"><img :src="project.image"></a>
