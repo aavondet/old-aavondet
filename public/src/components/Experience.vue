@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <div id="title"><b>Past Jobs I've Had</b></div>
+    <div id="title"><b>Jobs I've Had</b></div>
     <div class="entry" v-for="job in jobs" :key="job.id">
       <div class="image">
         <a :href="job.link"><img :src="job.image"></a>

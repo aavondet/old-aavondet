@@ -6,16 +6,21 @@
         <span class="name" v-anime="{ delay: 1600, duration: 1000, easing: 'linear', opacity: 1 }">I am</span>
         <span v-anime="{ delay: 3000, duration: 1500, easing: 'linear', opacity: 1 }" class="arnaud">Arnaud</span>
       </div>
+      <div class="about">
+        <div id="title"><b>About Me</b></div>
+        <p>
+          I am an undergraduate student at Carnegie Mellon University majoring in Mathematical Sciences with a double major in Computer Science. 
+          My interest lie in number thoery, cryptography, web developement, and distributed edger technology.
+          I believe strongly in promoting math education as it is vital in diving deeper in virtually any field in STEM, yet its reputation is quite bad among students of all levels.
+          I also hold leadership positions in both the CMU Japanese Student Association as well as the CMU Blockchain Group.
+        </p>
+      </div>
     </section>
   </div>
 </template>
 
 <script>
-import Experience from "./Experience.vue"
 export default {
-  components: {
-    Experience
-  }
 }
 </script>
 
@@ -74,8 +79,20 @@ span {
   55%{color:#bbb}
   100%{color: #bbb}
 }
-hr {
-  border-top: 2px solid rgba(140, 213, 101, 0.93);
-  width: 80%
+#title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(140, 213, 101, 0.93);
+  font-size: 64px;
+}
+.about {
+  width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top:50px;
+}
+.about p {
+  font-size: 25px;
+  color: #bbb
 }
 </style>

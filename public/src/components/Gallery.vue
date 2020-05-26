@@ -1,6 +1,6 @@
 <template>
   <div class="gallery">
-    <div id="title"><b>Some Logos by Me</b></div>
+    <div id="title"><b>Logos by Me</b></div>
     <stack id="stack" :column-min-width="450" :gutter-width="15" :gutter-height="15" :monitor-images-loaded="true">
       <stack-item v-for="(photo, i) in photos" :key="i">
         <img :src="thumbUrl(photo.filename)">
