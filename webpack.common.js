@@ -6,11 +6,12 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'src'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     rules: [
       { test: /\.vue$/, use: 'vue-loader' },
+      { test: /\.js$/, use: 'babel-loader',},
       { test: /\.css$/, use: [ 'vue-style-loader', 'css-loader' ]},
       { test: /\.(gif|png|jpe?g|svg)$/i, use: [ 'file-loader', { loader: 'image-webpack-loader'}] }
     ]

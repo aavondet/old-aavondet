@@ -17,7 +17,7 @@
         "id": 2, 
         "title": "Bike Pittsburgh Data Science Project", 
         "image": "../assets/projects/bikepgh.png", 
-        "link": "../assets/SUDS_BikePGH_Final_Report.pdf",
+        "link": "src/assets/SUDS_BikePGH_Final_Report.pdf",
         "description": "A project with Students Using Data for Social Good, an organization that is a part of the Heinz College. Worked on a team of graduate students as a freshmen, doing data cleaning with R, as well as using GeoPandas and ArcGIS Online to create data visualizations using geolocation to gain insight into the OpenStreetsPGH event attendees and help reach a more diverse audience"
     },
     {  
