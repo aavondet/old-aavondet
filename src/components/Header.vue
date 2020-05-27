@@ -7,7 +7,7 @@
 					<li><a class="link" @click="$emit('experience')">Experience</a></li>
 					<li><a class="link" @click="$emit('coding')">Projects</a></li>
 					<li><a class="link" @click="$emit('design')">Design</a></li>
-					<li><a class="link" href="../assets/ARNAUD_AVONDET_RESUME.pdf">Resume</a></li>
+					<li><a class="link" href="../assets/RESUME.pdf">Resume</a></li>
 				</ul>
 			</nav>
 	</header>
