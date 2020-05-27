@@ -7,6 +7,7 @@
       <Coding id='coding'></Coding>
       <Gallery id='design'></Gallery>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -16,9 +17,10 @@ import Experience from "./Experience.vue"
 import Header from './Header.vue'
 import Gallery from './Gallery.vue'
 import Coding from './Coding.vue'
+import Footer from './Footer.vue'
 
 export default {
-  components: { Header, Home, Experience, Gallery, Coding },
+  components: { Header, Home, Experience, Gallery, Coding, Footer },
   methods: {
     scrollTo (elm) {
       let target = document.getElementById(elm);
