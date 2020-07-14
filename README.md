@@ -1,19 +1,11 @@
-# aavondet
+<p align="center">
+  <img width="640pxpx" src="https://user-images.githubusercontent.com/41976260/87372429-81df2b80-c555-11ea-9c88-67bd96b5554c.JPG">
+</p>
 
-My portfolio site made with VueJS! Can be found at www.aavondet.xyz
+# Hi, I'm Arnaud!
 
-## Running Locally
+I'm an undergrad studying Math and CS at Carnegie Mellon University. In class I love writing mathematical proofs, in my free time I am a web developer who enjoys designing and writing frontend code. I also have been following the blockchain industry closely for the past two years and am excited for the web3.0 revolution!
 
-Script | Behavior
------------- | -------------
-`npm run dev` | Runs a webpack dev server with hot reload on
-`npm run build` | Builds for production and prodcues `Bundle.js` in `src/`
-`npm run start` | Runs the web app on localhost:8080
+Feel free to contact me on <a href="https://www.linkedin.com/in/aavondet/">linkedin</a>, I'd love to talk! 
 
-## Running on Docker
-
-Script | Behavior
------------- | -------------
-`docker build --tag <name> .` | Builds a docker image for production
-`docker build --tag <name> -f Dockerfile.dev .` | Builds a docker image for the dev server
-`docker run -dp 8080:8080 <name>` | Runs the docker image and you can access the site at localhost:8080
+My portfolio site can be found at www.aavondet.xyz
