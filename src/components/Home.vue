@@ -10,7 +10,7 @@
         <div id="title"><b>About Me</b></div>
         <p>
           I am an undergraduate student at Carnegie Mellon University majoring in Mathematical Sciences with a double major in Computer Science. 
-          My interest lie in number thoery, cryptography, web developement, and distributed edger technology.
+          My interest lie in number thoery, cryptography, web developement, and distributed ledger technology.
           I believe strongly in promoting math education as it is vital in diving deeper in virtually any field in STEM, yet its reputation is quite bad among students of all levels.
           I also hold leadership positions in both the CMU Japanese Student Association as well as the CMU Blockchain Group.
         </p>
