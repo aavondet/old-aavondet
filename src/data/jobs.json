@@ -1,6 +1,15 @@
 [
     {
         "id": 0, 
+        "company": "Apple", 
+        "location": "Pittsburgh, PA", 
+        "position": "Software Enginner Intern", 
+        "image": "../assets/jobs/apple.png", 
+        "link": "https://www.apple.com/", 
+        "description": "Designed a web application from app architecture to frontend wireframes. Then used Javascript and AngularJS, with a Ruby backend, to implement a task scheduling web application that integrated with internal systems and APIs."
+    },
+    {
+        "id": 1, 
         "company": "Expii", 
         "location": "Pittsburgh, PA", 
         "position": "Intern", 
@@ -9,7 +18,7 @@
         "description": "Worked on the \"Daily Challenge with Po-Shen Loh\" team, using LaTeX to write problems in different fields of Mathematics, such as Number Theory and Probability, that were used to evaluate students on their proficiency in these topics. Additionally, editted videos of Professor Po-Shen Loh using DaVinci Resolve and helped with filming as well."
     },
     {
-        "id": 1, 
+        "id": 2, 
         "company": "PLAID, Inc.", 
         "location": "Tokyo, Japan", 
         "position": "Developer Intern", 
@@ -18,7 +27,7 @@
         "description": "Developed the frontend code of several new pages, giving design input about industry standards and UX writing, coding them in JavaScript using the Vue framework, and writing e2e tests in CoffeeScript using Selenium. Contributed with frontend code refactoring and long-term development planning to prepare the CX platform Karte for its initial overseas release as part of the i18n team."
     },
     {
-        "id": 2, 
+        "id": 3, 
         "company": "Vigience", 
         "location": "Tokyo, Japan", 
         "position": "Intern", 
